@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #090119; font-family: poppins;" class="">
+    <nav class="">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8" style="color: #846ebc;">
+            <div class="relative flex items-center justify-between h-16">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+
+
+
+                    </button>
+                </div>
+
+                <div class="sm:block sm:ml-6">
+                    <div class="flex space-x-4">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        <a href="#" class="" aria-current="page" style="color: #846ebc;">Home</a>
+                        <a href="/dashboard" class="" aria-current="page" style="color: #846ebc;">Dashboard</a>
+                        
+
+                    </div>
+                </div>
+            </div>
+            </button>
+
+        </div>
+
+    </nav>
+
+    <div class="max-w-xl mx-auto text-white container">
+        <h1 style="font-family: poppins; font-size: 4rem" class="text-center align-middle text-white font-normal">
+            Login</h1>
+        <div class="row">
+
+
+            <form action="/mklogin" method="post">
+                <div class="form-group text-center align-items-center">
+
+                    <h2 class="text-lg"><span class="text-lg pr-4"> Username</span> <input type="text"
+                            style="border-color:#4619a1; " name="username" id="username"
+                            class="border-2 text-xl bg-transparent rounded"></h2>
+                    <h2 class="text-lg"><span class="text-lg pr-4"> Password</span> <input type="password" style="border-color:#4619a1; "
+                            name="password" id="password" class="border-2 text-xl bg-transparent rounded"></h2>
+                    <p>Dont have an account? <a href="/register">Register</a></p>
+
+                </div>
+                <!--Add accordion for informations-->
+                
+                    
+                    
+
+
+        </div>
+
+        
+        <div class="text-center align-items-center pt-5">
+            <button type="submit" class="text-center align-items-center pt-2 pr-2 pl-2 pb-2 rounded"
+                style="background-color:#5600ff">Login</button>
+        </div>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>

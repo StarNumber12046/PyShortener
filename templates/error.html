@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="background-color: #090119; font-family: poppins;" class="">
+    {% if error == "nolink" %}
+    <h1>Link not found</h1><a href='/'>Go back</a>
+    {% elif error == "password" %}
+    <h1>Hey! Calm down! This link is password-protected and the password you inserted is not correct</h1>
+    {% elif error == "existingusr" %}
+    <h1>User alredy exists</h1>
+    {% endif %}
+</body>
+</html>
