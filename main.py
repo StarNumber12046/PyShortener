@@ -83,7 +83,7 @@ def short():
     duplicates = [x for x in cursor if x["short"] == slug]
     print(duplicates)
     if not len(duplicates) == 0:
-        return ("<h1>Slug already exists</h1><a href='/'>Go back</a>")
+        return ("<h1>This slug already exists</h1><a href='/'>Go back</a>")
     password = request.form["password"] or None
     print(password)
     values = {"url": request.form.get("url"), "short": slug, "password": password, "user": user}
