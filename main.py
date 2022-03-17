@@ -1,4 +1,3 @@
-from tracemalloc import reset_peak
 import pymongo, os, sys, dotenv, random
 from flask import *
 import hashlib
