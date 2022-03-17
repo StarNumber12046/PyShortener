@@ -1,2 +1,2 @@
 # PyShortener
-## A simple URL Shortener that you'll love
+### This is a fixed version of StarNumber12046/PyShorter##
