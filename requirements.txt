@@ -1,0 +1,5 @@
+pymongo
+flask
+python-dotenv
+waitress
+gunicorn
