@@ -2,7 +2,7 @@ import pymongo, os, sys, dotenv, random
 from flask import *
 import hashlib
 dotenv.load_dotenv(".env")
-
+# init app
 app = Flask(__name__)
 client = pymongo.MongoClient(os.getenv("MONGO_URI"))
 db = client["shorting"]
